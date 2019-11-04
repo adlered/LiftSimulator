@@ -1,3 +1,5 @@
+package pers.adlered.liftsimulator;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -10,7 +12,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-public class window extends JFrame implements ActionListener {
+public class Window extends JFrame implements ActionListener {
     boolean debugMode; //true就会让控制台刷屏
     int delay; //设定电梯上下楼速度
     int checkDelay; //设定循环检测间隔(数值越低,检测变化越快,占用系统资源越多)
